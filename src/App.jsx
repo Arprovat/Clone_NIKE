@@ -3,7 +3,10 @@ import './App.css'
 import Hero from './Components/Hero/Hero'
 import Nav from './Components/Nav/Nav'
 import PopularPoduct from './Components/PopularPoduct/PopularPoduct'
-
+import Services from './Components/Services/Services'
+import SpecialOffer from './Components/SpecialOffer/SpecialOffer'
+import SuperQuality from './Components/SuperQuality/SuperQuality'
+import CustomerReview from './Components/CustomerReview/CustomerReview'
 function App() {
 
   return (
@@ -17,16 +20,16 @@ function App() {
         <PopularPoduct></PopularPoduct>
         </section>
         <section className='padding'>
-         SuperQuality
+         <SuperQuality/>
         </section>
         <section className='padding-x py-10'>
-         services
+         <Services></Services>
         </section>
         <section className='padding'>
-         specialOffers
+         <SpecialOffer></SpecialOffer>
         </section>
         <section className=' bg-pale-blue padding'>
-         CustomerReviews
+         <CustomerReview></CustomerReview>
         </section>
         <section className='padding-x sm:py-32 py-16 w-full'>
          Subscribe

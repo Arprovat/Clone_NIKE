@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1,customer3 ,customer4,customer5,customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -34,21 +34,25 @@ export const products = [
         imgURL: shoe4,
         name: "Nike Air Jordan-01",
         price: "$200.20",
+        rating: 4.7,
     },
     {
         imgURL: shoe5,
         name: "Nike Air Jordan-10",
         price: "$210.20",
+        rating: 4.6,
     },
     {
         imgURL: shoe6,
         name: "Nike Air Jordan-100",
         price: "$220.20",
+        rating: 4.5,
     },
     {
         imgURL: shoe7,
         name: "Nike Air Jordan-001",
         price: "$230.20",
+        rating: 4.4,
     },
 ];
 
@@ -79,11 +83,30 @@ export const reviews = [
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
-        rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        customerName: 'Emily White',
+        rating: 5.0,
+        feedback: "Absolutely fantastic service! I couldn't be happier with my purchase."
+    },
+    {
+        imgURL: customer3,
+        customerName: 'James Black',
+        rating: 4.0,
+        feedback: "Great experience overall, though there’s always room for improvement."
+    },
+    {
+        imgURL: customer4,
+        customerName: 'Sophia Green',
+        rating: 4.8,
+        feedback: "The product arrived on time and in perfect condition. Will definitely order again."
+    },
+    {
+        imgURL: customer5,
+        customerName: 'Liam Blue',
+        rating: 4.3,
+        feedback: "Good quality, but I wish there were more customization options available."
     }
 ];
+
 
 
 export const footerLinks = [
