@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Button = ({label,iconURL,bg_color,text_color,border}) => {
+const Button = ({label,iconURL,bg_color,text_color,border,w_full}) => {
     return (
        
         <button
@@ -9,7 +9,7 @@ const Button = ({label,iconURL,bg_color,text_color,border}) => {
           bg_color
             ? ` bg-${bg_color} ${text_color} ${border}`
             : "bg-coral-red text-white border-coral-red "
-        } rounded-full hover:shadow-3xl font-semibold hover:${bg_color?"shadow-slate-gray":"shadow-coral-red"}`}
+        } rounded-full hover:shadow-3xl font-semibold hover:${bg_color?"shadow-slate-gray":"shadow-coral-red"} ${w_full && "w-full"} focus:border-slate-300`}
       >
              {label}
            {iconURL &&  <img className='ml-2 rounded-full w-5 h-5 ' src={iconURL} alt="arrow right icon" />}
@@ -21,7 +21,8 @@ Button.propTypes = {
     iconURL: PropTypes.string,
     bg_color: PropTypes.string,
     border: PropTypes.string,
-    text_color: PropTypes.string
+    text_color: PropTypes.string,
+    w_full: PropTypes.bool
 }
 
 export default Button;
