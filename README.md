@@ -1,9 +1,11 @@
-  <h3 align="center ">CloneNike</h3>
+  <h2 align="center" font-size='bold'>CloneNike</h2>
+  
 ## 📚 <a name="table">Table of Contents</a>
-🏁 Introduction
-🛠️ Tech Stack
-🌟 Features
-🚀 Deployment
+1. 🏁 [Introduction](#Introduction)
+2. 🛠️ [Tech Stack](#Tech-Stack)
+3. 🌟 [Features](#Features)
+4. 🚀 [Deployment](#Deployment)
+
 ## <a name="introduction">🏁 Introduction</a>
 CloneNike is a feature-packed, responsive web application that mirrors the look and feel of a Nike e-commerce platform. Leveraging cutting-edge web technologies, this project offers a visually stunning and user-friendly experience. Key sections include a dynamic hero area, a showcase of popular products, an informative "About Us" page, special offers, testimonials, and a stylish newsletter integration—all engineered with a focus on code reusability and architectural integrity.
 
@@ -13,6 +15,7 @@ CloneNike is a feature-packed, responsive web application that mirrors the look 
 🔗 React Icons
 🎢 React Slick
 🌐 Surge
+
 ## <a name="features">🌟 Features</a>
 👉 🔝 Navbar: A sleek and functional navigation bar featuring a logo, login/signup options, home, search, and product links.
 
