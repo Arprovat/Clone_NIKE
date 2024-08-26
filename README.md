@@ -36,7 +36,7 @@ CloneNike is a feature-packed, responsive web application that mirrors the look 
 👉 📱 Mobile Responsive: Fully optimized for various devices, ensuring seamless user experience across the board.
 
 ## <a name="deployment">🚀 Deployment</a>
-Experience CloneNike live: <a href="finicky-rain.surge.sh" target="_blank">
+Experience CloneNike live: <a href="https://finicky-rain.surge.sh" target="_blank">
 finicky-rain.surge.sh
 </a>
 
