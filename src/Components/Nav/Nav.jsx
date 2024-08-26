@@ -17,9 +17,9 @@ const Nav = () => {
                         </li>))
                     }
                 </ul>
-                <div className="flex gap-1 pr-8 items-center justify-center">
-                    <input className=" border-2 border-indigo-300 rounded-md focus:ring focus:ring-violet-200" type="text" />
-                    <input className='text-lg ' type="button" value="Search" />
+                <div className="flex gap-1 px-2 items-center justify-center ">
+                    <input className=" border-2 border-indigo-300 rounded-md focus:ring outline-none px-3 py-2 text-slate-gray h-8 items-center justify-center max-sm:h-5 focus:ring-violet-200" type="text" placeholder="Search Here" />
+                    <input className='text-lg text-slate-gray hover:shadow-3xl' type="button" value="Search" />
 
                 </div>
                 <div className="flex gap-2 font-semibold leading-normal text-lg font-montserrat text-slate-gray max-lg:hidden wide:mr-20">
